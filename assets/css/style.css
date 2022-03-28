@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bg-color: #183A4A;
+}
+
+body{
+    background-color:var(--bg-color) ;
+}
+
+.square{
+    height: 100px;
+    width: 100px;
+}
