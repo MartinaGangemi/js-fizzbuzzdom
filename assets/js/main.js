@@ -11,23 +11,27 @@ for (let i = 1; i<=100; i++){
     
     
 // Condizioni numeri multipli
-    if (i % 3 == 0 ){
-        listSquare.append(`Fizz`)
-        }
-        
-        else if (i % 5 == 0){
-            listSquare.append(`Buzz`)
-        }
-        
-       else if  (i % 5 == 0 && "i" % 3 == 0){
-        listSquare.append(`FizzBuzz`)
-
-        }
-
-       else {
-            listSquare.append(` ${i}`)
-        }
+if (i % 5 == 0 && i % 3 == 0){
+    const fizzBuzz = listSquare.append(`FizzBuzz`)
+    listSquare.classList.add("bg_fizzbuzz")
     }
+    
+    else if (i % 5 == 0){
+        listSquare.append(`Buzz`)
+        listSquare.classList.add("bg_buzz")
+    }
+    
+   else if  (i % 3 == 0 ){
+    listSquare.append(`Fizz`)
+    listSquare.classList.add("bg_fizz")
+    }
+
+   else {
+        listSquare.append(` ${i}`)
+        listSquare.classList.add("regular_bg")
+    }
+}
+
 
 
 

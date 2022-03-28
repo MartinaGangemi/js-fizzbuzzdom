@@ -6,6 +6,10 @@
 
 :root{
     --bg-color: #183A4A;
+    --bg_fizzbuzz: #DE5471;
+    --bg_buzz: #F9D277;
+    --bg_fizz: #61D2A4;
+    --regular: #3D88AE;
 }
 
 body{
@@ -23,4 +27,19 @@ body{
     font-weight: 700;
 }
 
+.bg_fizzbuzz{
+    background-color: var(--bg_fizzbuzz);
+}
 
+.bg_buzz{
+    background-color: var(--bg_buzz);
+}
+
+.bg_fizz{
+    background-color: var(--bg_fizz);
+}
+
+.regular_bg{
+    background-color: var(--regular);
+
+}
