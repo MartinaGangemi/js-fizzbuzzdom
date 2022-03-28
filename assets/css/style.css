@@ -15,4 +15,12 @@ body{
 .square{
     height: 100px;
     width: 100px;
+    background-color: red;
+    margin:1rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
 }
+
+
